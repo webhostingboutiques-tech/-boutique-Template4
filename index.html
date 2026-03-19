@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOIR SILK | The Midnight Collection</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">NOIR SILK</div>
+        <nav class="nav-links">
+            <a href="#collections">The Collection</a>
+            <a href="#about">The Muse</a>
+            <a href="#contact">Private Client</a>
+        </nav>
+        <div class="nav-actions">
+            <div class="cart-icon" id="cart-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" class="cart-svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                <span class="cart-count">0</span>
+            </div>
+            <button class="menu-btn" aria-label="Menu" id="menu-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-left fade-up">
+                <div class="glass-pill">The Midnight Collection</div>
+                <h1>Embrace the<br><span class="gradient-text">Allure.</span></h1>
+                <p>Seductive silhouettes. Luxurious drapes. Unapologetically elegant.</p>
+                <a href="#collections" class="btn btn-primary">Discover</a>
+            </div>
+            <div class="hero-right slide-in-right">
+                <div class="hero-image-wrapper">
+                    <img src="images/hero-saree.png" alt="Noir Silk Elegance">
+                    <div class="floating-badge">✨ Exclusive</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Collections -->
+        <section id="collections" class="section-padding collections">
+            <div class="section-title fade-up">
+                <h2>The <span class="gradient-text">Collection</span></h2>
+                <p>Meticulously crafted for the modern muse.</p>
+            </div>
+            <div class="grid-container">
+                <!-- Card 1 -->
+                <div class="product-card fade-up">
+                    <div class="card-image-box">
+                        <img src="images/saree1.png" alt="Midnight Ruby">
+                        <div class="card-hover-actions">
+                            <button class="btn-quickview icon-btn" title="Quick View">👀</button>
+                            <button class="btn-add-cart" data-id="1" data-name="Midnight Ruby" data-price="340" data-img="images/saree1.png">Acquire</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Midnight Ruby</h3>
+                        <p class="price">$340.00</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="product-card fade-up" style="transition-delay: 0.1s">
+                    <div class="card-image-box">
+                        <img src="images/saree2.png" alt="Emerald Desire">
+                        <div class="card-hover-actions">
+                            <button class="btn-quickview icon-btn" title="Quick View">👀</button>
+                            <button class="btn-add-cart" data-id="2" data-name="Emerald Desire" data-price="410" data-img="images/saree2.png">Acquire</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Emerald Desire</h3>
+                        <p class="price">$410.00</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="product-card fade-up" style="transition-delay: 0.2s">
+                    <div class="card-image-box">
+                        <img src="images/saree3.png" alt="Pearl Elegance">
+                        <div class="card-hover-actions">
+                            <button class="btn-quickview icon-btn" title="Quick View">👀</button>
+                            <button class="btn-add-cart" data-id="3" data-name="Pearl Elegance" data-price="295" data-img="images/saree3.png">Acquire</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Pearl Elegance</h3>
+                        <p class="price">$295.00</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="product-card fade-up" style="transition-delay: 0.3s">
+                    <div class="card-image-box">
+                        <img src="images/saree4.png" alt="Sapphire Night">
+                        <div class="card-hover-actions">
+                            <button class="btn-quickview icon-btn" title="Quick View">👀</button>
+                            <button class="btn-add-cart" data-id="4" data-name="Sapphire Night" data-price="310" data-img="images/saree4.png">Acquire</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Sapphire Night</h3>
+                        <p class="price">$310.00</p>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="product-card fade-up" style="transition-delay: 0.4s">
+                    <div class="card-image-box">
+                        <img src="images/saree5.png" alt="Rose Gold Allure">
+                        <div class="card-hover-actions">
+                            <button class="btn-quickview icon-btn" title="Quick View">👀</button>
+                            <button class="btn-add-cart" data-id="5" data-name="Rose Gold Allure" data-price="450" data-img="images/saree5.png">Acquire</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Rose Gold Allure</h3>
+                        <p class="price">$450.00</p>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="product-card fade-up" style="transition-delay: 0.5s">
+                    <div class="card-image-box">
+                        <img src="images/saree6.png" alt="Amethyst Silk">
+                        <div class="card-hover-actions">
+                            <button class="btn-quickview icon-btn" title="Quick View">👀</button>
+                            <button class="btn-add-cart" data-id="6" data-name="Amethyst Silk" data-price="280" data-img="images/saree6.png">Acquire</button>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <h3>Amethyst Silk</h3>
+                        <p class="price">$280.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section styled as Bento Box -->
+        <section id="about" class="about section-padding">
+            <div class="bento-grid">
+                <div class="bento-item big-bento fade-up">
+                    <img src="images/about-saree.png" alt="The Muse">
+                    <div class="bento-content">
+                        <h2>Timeless Seduction.</h2>
+                    </div>
+                </div>
+                <div class="bento-item sm-bento fade-up" style="background:#1A1A1A;">
+                    <h3>Purest<br>Mulberry Silk</h3>
+                </div>
+                <div class="bento-item sm-bento fade-up" style="background:#222;">
+                    <h3>Masterfully<br>Handcrafted</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section-padding" style="background: rgba(255, 255, 255, 0.02);">
+            <div class="section-title fade-up">
+                <h2>The <span class="gradient-text">Muse</span></h2>
+                <p>Adored by those with discerning taste.</p>
+            </div>
+            <div class="testimonials-grid" style="padding: 0 8%;">
+                <div class="testimonial-bubble fade-up">
+                    <div class="stars">★★★★★</div>
+                    <p>"An absolute masterpiece of a drape. It exudes confidence, luxury, and pure seductive elegance."</p>
+                    <h4>— Elena R.</h4>
+                </div>
+                <div class="testimonial-bubble fade-up" style="transition-delay: 0.1s">
+                    <div class="stars">★★★★★</div>
+                    <p>"The silk feels like liquid gold. The minimalist, dark packaging was an experience in itself."</p>
+                    <h4>— Sofia M.</h4>
+                </div>
+                <div class="testimonial-bubble fade-up" style="transition-delay: 0.2s">
+                    <div class="stars">★★★★★</div>
+                    <p>"Unbelievably rich coloring. I wore the Midnight Ruby to an evening gala and commanded the room."</p>
+                    <h4>— Victoria L.</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section id="contact" class="contact section-padding">
+             <div class="newsletter-box fade-up">
+                <h2>Private Access</h2>
+                <p>Join the inner circle for exclusive previews and priority reservations.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Welcome to the inner circle. Elegance awaits.');">
+                    <input type="email" placeholder="Enter your email address..." required class="pop-input">
+                    <button type="submit" class="btn btn-secondary">Join the List</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h2>NOIR SILK</h2>
+                <p>Silhouettes of seductive luxury.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Boutique Services</a>
+                <a href="#">Shipping Details</a>
+                <a href="#">Returns</a>
+                <a href="#">Privacy</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NOIR SILK. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Selection</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Items injected by JS -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Subtotal</span>
+                <span id="cart-total-price" style="color:var(--accent); font-family:var(--font-heading); font-style:italic; font-size:1.8rem;">$0.00</span>
+            </div>
+            <button class="btn btn-primary check-btn" id="checkout-btn" style="width: 100%; margin-top: 1.5rem; letter-spacing: 2px;">PROCEED TO CHECKOUT</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <!-- Quick View Modal (Reuses JS exactly) -->
+    <div class="quickview-modal" id="quickview-modal">
+        <div class="quickview-content glass-panel">
+            <button class="close-quickview" id="close-quickview">&times;</button>
+            <div class="quickview-grid">
+                <div class="quickview-img-container">
+                    <img src="" alt="Product" id="qv-img">
+                </div>
+                <div class="quickview-info">
+                    <h2 id="qv-title" style="font-family: var(--font-heading);">Product</h2>
+                    <p class="qv-price" id="qv-price" style="color:var(--accent); font-size:1.5rem; margin-bottom:1rem; font-style:italic; font-family:var(--font-heading);">$0</p>
+                    <p class="qv-desc" style="color:#A0A0A0; margin-bottom:2rem; font-weight:300; line-height:1.8;">Sumptuous, heavyweight silk designed to softly trace your silhouette. Pre-draped details ensure flawless wear for any evening affair.</p>
+                    
+                    <div class="qv-options" style="background:#111; border:1px solid #333; padding:1.5rem; margin-top:1rem; margin-bottom:2rem;">
+                        <div style="margin-bottom: 1.5rem;">
+                            <label for="qv-blouse" style="display:block; margin-bottom:0.8rem; font-weight:500; font-size:0.9rem; text-transform:uppercase; letter-spacing:1px; color:#ddd;">Bustier Fit</label>
+                            <select id="qv-blouse" class="pop-input" style="width:100%; padding:1rem; background:#0A0A0A; color:#E0E0E0; border:1px solid #444;">
+                                <option value="Unstitched" data-price="0">Unstitched Fabric</option>
+                                <option value="Stitched" data-price="45">Bespoke Tailoring (+$45.00)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="qv-fall" style="display:block; margin-bottom:0.8rem; font-weight:500; font-size:0.9rem; text-transform:uppercase; letter-spacing:1px; color:#ddd;">Fall & Pico Finishing</label>
+                            <select id="qv-fall" class="pop-input" style="width:100%; padding:1rem; background:#0A0A0A; color:#E0E0E0; border:1px solid #444;">
+                                <option value="Yes" data-price="15">Atelier Finished (+$15.00)</option>
+                                <option value="No" data-price="0">Unfinished</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary" id="qv-add-cart" style="width: 100%;">ADD TO SELECTION</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment Gateway Modal Simulation -->
+    <div class="payment-modal" id="payment-modal">
+        <div class="payment-content glass-panel" style="max-height: 90vh; overflow-y: auto;">
+            <div class="payment-header">
+                <h3 style="font-family: var(--font-heading); font-style:italic;">Secure Checkout</h3>
+                <button class="close-payment" id="close-payment">&times;</button>
+            </div>
+            <div class="payment-body" id="payment-body">
+                <p style="font-weight:500; margin-bottom:1rem; color:#A0A0A0; text-transform:uppercase; font-size:0.85rem; letter-spacing:1px;">Delivery Details</p>
+                <div class="payment-form" style="margin-bottom: 2rem;">
+                    <input type="text" placeholder="Full Name" class="pop-input pay-input" required>
+                    <input type="text" placeholder="Shipping Address" class="pop-input pay-input" required>
+                    <div class="pay-row" style="display:flex; gap:15px;">
+                        <input type="text" placeholder="City" class="pop-input pay-input" required>
+                        <input type="text" placeholder="ZIP" class="pop-input pay-input" required>
+                    </div>
+                    <input type="tel" placeholder="Phone Number" class="pop-input pay-input" required>
+                </div>
+                
+                <p style="font-weight:500; margin-bottom:1rem; color:#A0A0A0; text-transform:uppercase; font-size:0.85rem; letter-spacing:1px;">Payment Method</p>
+                <div class="payment-methods" style="display:flex; gap:15px; margin-bottom:1.5rem;">
+                    <button class="pay-btn active cc-btn">Credit Card</button>
+                    <button class="pay-btn upi-btn">Apple Pay</button>
+                </div>
+                <div class="payment-form" id="payment-form">
+                    <input type="text" placeholder="Card Number" class="pop-input pay-input">
+                    <div class="pay-row" style="display:flex; gap:15px;">
+                        <input type="text" placeholder="MM/YY" class="pop-input pay-input">
+                        <input type="text" placeholder="CVV" class="pop-input pay-input">
+                    </div>
+                </div>
+                <button class="btn btn-primary" id="process-pay-btn" style="width: 100%; margin-top: 2rem; letter-spacing:1px;">AUTHORIZE PAYMENT</button>
+            </div>
+            <div class="payment-success" id="payment-success" style="display: none; padding:4rem 2rem; text-align:center;">
+                <div style="font-size:3rem; margin-bottom:1.5rem; color: #D4AF37;">♔</div>
+                <h3 style="color: var(--accent); margin-bottom:1.5rem; font-size:2rem; font-family:var(--font-heading); font-style:italic;">Order Confirmed.</h3>
+                <p style="color: #A0A0A0; margin-bottom:2.5rem; font-weight:300; line-height:1.6;">Your exclusive piece is being prepared by our atelier. A private tracking link has been sent to your email.</p>
+                <button class="btn btn-secondary" id="continue-shopping" style="width: 100%;">RETURN TO BOUTIQUE</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
